@@ -1,0 +1,25 @@
+{
+    "name": "sheychen/facteur",
+    "description": "Curl based Client using PSR-7 and PSR-17",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "sheychen",
+            "email": "contact@clementbois.fr"
+        }
+    ],
+    "require": {
+        "php": "^5.6|^7.0",
+        "psr/http-message": "^1.0",
+        "http-interop/http-factory": "^0.2.0"
+    },
+    "require-dev": {
+        "sheychen/colis": "^1.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Facteur\\": "src/"
+        }
+    }
+}

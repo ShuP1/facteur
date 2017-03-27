@@ -1,0 +1,202 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "080ea138dbcee25465cb4622ef778cb5",
+    "packages": [
+        {
+            "name": "http-interop/http-factory",
+            "version": "0.2.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/http-interop/http-factory.git",
+                "reference": "403aec5f2451ff83b5ffffea0bfdb588502add3e"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/http-interop/http-factory/zipball/403aec5f2451ff83b5ffffea0bfdb588502add3e",
+                "reference": "403aec5f2451ff83b5ffffea0bfdb588502add3e",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.0",
+                "psr/http-message": "^1.0"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.0.x-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Interop\\Http\\Factory\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "PHP-FIG",
+                    "homepage": "http://www.php-fig.org/"
+                }
+            ],
+            "description": "Common interface for HTTP message factories",
+            "keywords": [
+                "factory",
+                "http",
+                "message",
+                "psr",
+                "psr-17",
+                "psr-7",
+                "request",
+                "response"
+            ],
+            "time": "2016-11-08T00:10:33+00:00"
+        },
+        {
+            "name": "psr/http-message",
+            "version": "1.0.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/php-fig/http-message.git",
+                "reference": "f6561bf28d520154e4b0ec72be95418abe6d9363"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/php-fig/http-message/zipball/f6561bf28d520154e4b0ec72be95418abe6d9363",
+                "reference": "f6561bf28d520154e4b0ec72be95418abe6d9363",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.0"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.0.x-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Psr\\Http\\Message\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "PHP-FIG",
+                    "homepage": "http://www.php-fig.org/"
+                }
+            ],
+            "description": "Common interface for HTTP messages",
+            "homepage": "https://github.com/php-fig/http-message",
+            "keywords": [
+                "http",
+                "http-message",
+                "psr",
+                "psr-7",
+                "request",
+                "response"
+            ],
+            "time": "2016-08-06T14:39:51+00:00"
+        }
+    ],
+    "packages-dev": [
+        {
+            "name": "sheychen/colis",
+            "version": "1.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/sheychen290/colis.git",
+                "reference": "cbd13049027b2dc7e4bf9f704aa437f8d78ccce6"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/sheychen290/colis/zipball/cbd13049027b2dc7e4bf9f704aa437f8d78ccce6",
+                "reference": "cbd13049027b2dc7e4bf9f704aa437f8d78ccce6",
+                "shasum": ""
+            },
+            "require": {
+                "http-interop/http-factory": "^0.2.0",
+                "php": "^5.6|^7.0",
+                "psr/http-message": "^1.0",
+                "sheychen/inutils": "^1.0"
+            },
+            "provide": {
+                "psr/http-factory-implementation": "^1.0",
+                "psr/http-message-implementation": "^1.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Colis\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "sheychen",
+                    "email": "contact@clementbois.fr"
+                }
+            ],
+            "description": "Simple PSR-7 and PSR-17 implementation",
+            "time": "2017-03-22T21:08:06+00:00"
+        },
+        {
+            "name": "sheychen/inutils",
+            "version": "1.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/sheychen290/inutils.git",
+                "reference": "c7fc0be52c0d16e34c286a8a057490d0b0d26506"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/sheychen290/inutils/zipball/c7fc0be52c0d16e34c286a8a057490d0b0d26506",
+                "reference": "c7fc0be52c0d16e34c286a8a057490d0b0d26506",
+                "shasum": ""
+            },
+            "require": {
+                "php": "^5.6|^7.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Inutils\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "sheychen",
+                    "email": "contact@clementbois.fr"
+                }
+            ],
+            "description": "Common Usefull Classes",
+            "time": "2017-03-22T19:34:05+00:00"
+        }
+    ],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": [],
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": {
+        "php": "^5.6|^7.0"
+    },
+    "platform-dev": []
+}
